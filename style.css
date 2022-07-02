@@ -15,7 +15,7 @@
 }
 .container2{
     position: absolute;
-
+    display :;
 
 }
 
@@ -131,11 +131,10 @@ form{
     position: absolute;
     border: 2px  black;
     left: 650px;
-    top:60px;
+    top:70px;
     border-radius: 10px;
-    height: 69vh;
+    height: 70vh;
     width: 25vw;
-    /* width: 76vw; */
     align-items: center;
     padding-top: 30px;
     padding-left: 20px;
@@ -159,21 +158,22 @@ form>p{
     position: absolute;
     font-size:12px;
     color: #444242;
-    /* top: 11vw; */}
+    top:80px
+}
 .input1{
     position: absolute;
     border: 1px solid #5f0f40;
     border-radius: 10px;
     padding: 10px;
-    width: 22vw;
+    width: 300px;
     left: 30px;
     top: 150px;
 }
 .input2{
     position: absolute;
     top:205px;
-    
-    float: right;left: 15vw;border-radius: 6px;
+    left: 250px;
+    border-radius: 6px;
     padding: 5px;
     width: 120px;
     background-color: #5f0f40;
@@ -184,36 +184,29 @@ form>p{
 /***********************Media Queries********************************************************/
 
 
-@media(min-width: 300px) and (max-width:840px)
+@media(min-width: 300px) and (max-width:320px)
 {
-    .form{
+    form{
         position: absolute;
-      height: 47.5vh;
-        width: 52vw;
+        height: 70.5vh;
+        width: 95vw;
+        top: 80px;
     }
     form>h3{
         position: absolute;
-
-        top: 90vw;
-    font-size: 4vw;
-
-        width: 22vw;
-        height: 4vh;
-    }
-    form>h1{
-        font-size: 5.2vw;
+        top: 340px;
+        width: 63vw;
+        height: 5vh;
+        
     }
     .input1{
-       width: 40vw;
+        width: 70vw;
 
-    width: 4;}
+    }
     .input2{
         position: absolute;
-        /*width: 40vw ;*/
-        left: 26vw;
-    }
-    form>p{
-        top: 14vw;
+        width: 40vw ;
+        left: 180px;
     }
 
 
@@ -221,11 +214,14 @@ form>p{
 }
 
 
-@media(min-width: 321px) and (max-width: 359px)
+
+
+
+@media(min-width: 321px) and (max-width: 375px)
 {
-    .form{
+    form{
         position: absolute;
-        width:45vw;
+        width: 79vw;
         left: 520px;
 
         
@@ -234,9 +230,9 @@ form>p{
         font-size: 25px;      
     }
     form>h3{
-        width: 50.2vw;
+        width: 50.5vw;
         position: absolute;
-        top: 340px;
+        top: 345px;
 
 
 
@@ -252,86 +248,19 @@ form>p{
 
        
 }
-@media(min-width:360px) and(max-width:369px){
-.form{
-        position: absolute;
-        width:30vw;
 
 
-    }
-    form>h3{
-        
-
-    }
-    .input1{
-        width: 60vw;
-    }
-    .input2{
-        width: 40vw;
-        position: absolute;
-        left: 150px;
-    }
-}
-@media (min-width:370px) and (max-width: 400px){
-    form>h3{
-        width:195px
-    }
-    .input1{
-        width: 60vw;
-    }
-    .input2{
-        width: 40vw;
-        position: absolute;
-        left: 150px;
-}
-}
-
-@media(min-width: 700px) and (max-width: 750px)
-{
-form{
-        width: 30vw;
-        left:550px;
-       
-       
-       
-        
-    }
-    form>h3{
-        width: 250px;
-        position: absolute;
-        top: 340px;
 
 
-        
-        
-        
-    }
-    .input1{
-        width: 60vw;
-    }
-    .input2{
-        width: 40vw;
-        position: absolute;
-        left: 150px;
-    }
-
-       
-}
-@media (min-width: 800px) and (max-width: 900px) {
+@media (min-width:376px) and (max-width: 1440px){
     form{
-        width:30vw;
+        width: 350px;
+        height: 487px;
     }
     form>h3{
-        width:250px;
-        position:absolute;
-        top: 340px;
+        width:250px
     }
 }
-@media (min-width: 950px) and (max-width: 1024px) {
-    form>h3{
-        width: 15vw;}
-    .content4{
-        width: 50vw;
-    }
-    
-}
+
+
+        
